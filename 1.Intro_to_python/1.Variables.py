@@ -24,3 +24,11 @@ b = 30.5
 c = a / b
 
 print(c)
+
+# Checking flags
+
+a, b, c = 1, 2, 3
+if any((a, b, c)):
+    print('All passed')
+else:
+    print('Failed test')
