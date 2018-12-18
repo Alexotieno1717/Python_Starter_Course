@@ -25,6 +25,14 @@ def sphere_volume(r):
     return volume
 
 
+if __name__ == '__main__':
+    import timeit
+
+    print(f'The running time of the sphere_volume function is : {timeit.timeit("sphere_volume(14)",
+                                                                               setup="from __main__ import sphere_volume")}')
+
+
+
 vol = sphere_volume(6)
 print(vol)
 

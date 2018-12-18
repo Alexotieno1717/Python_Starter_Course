@@ -1,5 +1,5 @@
 """
-Working with intergers
+Working with integers
 """
 a = 4
 b = 5
@@ -24,6 +24,18 @@ b = 30.5
 c = a / b
 
 print(c)
+
+"""
+Working with boolean types
+"""
+t = True
+print(t)
+
+"""
+Empty value or None data type
+"""
+x = None
+print(x)
 
 # Checking flags
 
