@@ -25,6 +25,7 @@ for line in read_csv_contents:
     print(f'{name} is {age} years old, and studies {degree} at {university} university')
 """
 # WRITING TO THE FILE
+
 # csv_values = ','.join([Pass a list of your data separated by commas])
 # ['Mary', '21', 'Cambridge', 'Business and Commerce']
 for lines in read_csv_contents:
